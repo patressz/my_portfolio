@@ -1,0 +1,186 @@
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 100%;
+    background-color: #f5f5f5;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after,
+.container:after {
+    clear: both;
+}
+
+#main-navigation {
+    z-index: 10;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+img {
+    max-width: 100%;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+a {
+    color: #ff5a5a;
+}
+/* Main header */
+
+#main-header h3 {
+    color: #ff5a5a;
+}
+
+.bg-img {
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#main-header {
+    position: relative;
+    top: -5vh;
+    height: 100vh;
+}
+
+#main-header h1 {
+    font-family: Signika,sans-serif;
+    font-weight: bold !important;
+}
+
+#main-header h3 {
+    font-family: "Source Sans Pro",sans-serif;
+    font-weight: normal !important;
+}
+/* End main header */
+
+/* Main content */
+
+#main-content {
+    position: relative;
+    top: -90px;
+    /* background-color: #f5f5f5; */
+}
+/* End main content */
+
+/* Card */
+
+.card {
+    /* border: none; */
+}
+/* End card */
+
+
+/* Contact */
+
+.contact {
+    background-color: #03001d;
+}
+/* End contact */
+
+/* Contact form */
+
+form {
+    margin: 1.875em 0;
+}
+.contact button,
+input,
+textarea {
+    background: #fff;
+    border: 2px solid #ccc;
+    font-size: 0.9375em;
+    margin-top: 1.3333333333333333em;
+}
+input,
+textarea {
+    border-radius: 0.26666666666666666em;
+    background: #ccc;
+    transition: background 0.25s ease-in-out;
+}
+input:focus,
+textarea:focus {
+    outline: 0;
+    background: #eee;
+    border: 2px solid #4e08bd;
+}
+input {
+    width: 100%;
+    padding: 1.2em 0.9333333333333333em;
+    margin-right: 1.0714285714285714em;
+}
+input:last-child {
+    margin-right: 0;
+}
+textarea {
+    width: 100%;
+    height: 10.4em;
+    display: block;
+    margin-top: 1.3333333333333333em;
+    padding: 1.2em 0.9333333333333333em;
+    resize: vertical;
+}
+.contact button {
+    margin-top: 1.3333333333333333em;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Source Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    background: #ff5a5a;
+    color: #fff;
+    padding: 0 2.3125em;
+    line-height: 4em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: 0;
+    transition: background 0.25s ease-in-out;
+}
+.contact button:focus,
+.contact button:hover {
+    background: #ff6b6b;
+}
+.reset {
+    background: #2a2a2a;
+    border: 1px solid #eee;
+}
+.reset:focus,
+.reset:hover {
+    border: 1px solid #bbb;
+    background: 0 0;
+}
+/* End contact form */
+
+/* Img cover */
+.cover {
+    height: 300px;
+    object-fit: cover;
+}
+/* End img */
+
+/* Ellipsis btn */
+.ellipsis {
+    width: 42px !important;
+}
+/* Ellipsis btn end */
